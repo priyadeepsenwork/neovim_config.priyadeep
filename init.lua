@@ -129,36 +129,6 @@ require('catppuccin').setup({
 
 vim.cmd.colorscheme('catppuccin') -- Set the colorscheme
 
-local italicize = {
-  "Comment",
-  "Conditional",
-  "Statement",
-  "Repeat",
-  "Label",
-  "Keyword",
-  "Exception",
-  "Include",
-  "Define",
-  "Macro",
-  "PreProc",
-  "Type",
-  "StorageClass",
-  "Structure",
-  "Identifier",
-  "Function",
-  "Operator",
-  "Variable",
-  "String",
-  "Character",
-  "Number",
-  "Boolean",
-}
-
-for _, group in ipairs(italicize) do
-  vim.cmd(string.format("highlight %s gui=italic", group))
-end
-
-
 -- STATUS LINE (MINIMAL)
 vim.opt.laststatus = 2
 vim.opt.showmode = false
