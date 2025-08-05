@@ -4,8 +4,6 @@
 
 Welcome to my **Neovim `init.lua` config**, a complete and blazing-fast setup written from scratch in **Lua** using the powerful [`lazy.nvim`](https://github.com/folke/lazy.nvim) plugin manager.
 
-![screenshot](https://user-images.githubusercontent.com/your-screenshot.png)
-
 ---
 
 ## 🚀 Features
