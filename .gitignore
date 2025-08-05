@@ -1,0 +1,26 @@
+# Neovim swap files
+*.swp
+*.swo
+
+# Neovim backup files
+*.bak
+*.old
+
+# Compiled Lua files (if applicable)
+*.luac
+
+# Plugin manager directories (e.g., Packer, Lazy.nvim)
+# Adjust based on your specific plugin manager and setup
+pack/
+site/
+
+# Cache directories
+cache/
+.cache/
+
+# Log files
+*.log
+
+# Temporary files or build artifacts
+tmp/
+build/
